@@ -4,6 +4,19 @@
   </head>
   <body>
     <div id="root"></div>
+    
+    <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyATwK-J3bFj4_0tvPH7MusCu4j0owfUn9Y",
+        authDomain: "mobx-test.firebaseapp.com",
+        databaseURL: "https://mobx-test.firebaseio.com",
+        storageBucket: "mobx-test.appspot.com",
+      };
+      firebase.initializeApp(config);
+    </script>
+
     <script src="/static/bundle.js"></script>
   </body>
 </html>
